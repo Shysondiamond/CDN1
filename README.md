@@ -1,5 +1,5 @@
 <h1>TOKO KOPI SUMBER URIP</h1>
-<img src='4.png'/>
+<img src='Sumber Urip (150 x 100 px)_20240724_103931_0000.jpg'/>
 <h2>Selamat Datang di Toko Kopi Sumber Urip</h2>
 <p>Toko Kopi Sumber Urip siap memanjakan lidah Anda dengan kombinasi sempurna dari kopi spesial yang menggugah selera dan sambelan lezat yang autentik. Jangan lewatkan pengalaman kuliner unik ini!</p>
 <h3>Lokasi</h3>
