@@ -335,7 +335,7 @@ ul {
 }
 
 li {
-  display: list-item;
+
 }
 
 ol,
@@ -459,10 +459,7 @@ td:last-child {
 /* ------------------------------------------------------------------- 
  * ## Spacing - (_document-setup.scss)
  * ------------------------------------------------------------------- */
-button,
-.btn {
-  margin-bottom: 1.2rem;
-}
+
 
 fieldset {
   margin-bottom: 1.5rem;
@@ -787,119 +784,7 @@ select:-webkit-autofill:focus {
  * # buttons - (_button.scss)
  *
  * ------------------------------------------------------------------- */
-.btn,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-  display: inline-block;
-  font-family: "metropolis-semibold", sans-serif;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: .3rem;
-  height: 5.4rem;
-  line-height: 5rem;
-  padding: 0 3rem;
-  margin: 0 .3rem 1.2rem 0;
-  color: #000000;
-  text-decoration: none;
-  text-align: center;
-  white-space: nowrap;
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #c5c5c5;
-  border: .2rem solid #c5c5c5;
-}
 
-.btn:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.btn:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
-  background-color: #b8b8b8;
-  border-color: #b8b8b8;
-  color: #000000;
-  outline: 0;
-}
-
-/* button primary
- * ------------------------------------------------- */
-.btn.btn--primary,
-button.btn--primary,
-input[type="submit"].btn--primary,
-input[type="reset"].btn--primary,
-input[type="button"].btn--primary {
-  background: #ff0000;
-  border-color: #ff0000;
-  color: #FFFFFF;
-}
-
-.btn.btn--primary:hover,
-button.btn--primary:hover,
-input[type="submit"].btn--primary:hover,
-input[type="reset"].btn--primary:hover,
-input[type="button"].btn--primary:hover,
-.btn.btn--primary:focus,
-button.btn--primary:focus,
-input[type="submit"].btn--primary:focus,
-input[type="reset"].btn--primary:focus,
-input[type="button"].btn--primary:focus {
-  background: #d3007d;
-  border-color: #d3007d;
-}
-
-/* button modifiers
- * ------------------------------------------------- */
-.btn.full-width,
-button.full-width {
-  width: 100%;
-  margin-right: 0;
-}
-
-.btn--medium,
-button.btn--medium {
-  height: 5.7rem !important;
-  line-height: 5.3rem !important;
-}
-
-.btn--large,
-button.btn--large {
-  height: 6rem !important;
-  line-height: 5.6rem !important;
-}
-
-.btn--stroke,
-button.btn--stroke {
-  background: transparent !important;
-  border: 0.2rem solid #000000;
-  color: #000000;
-}
-
-.btn--stroke:hover,
-button.btn--stroke:hover {
-  background: #000000 !important;
-  border: 0.2rem solid #000000;
-  color: #FFFFFF;
-}
-
-.btn--pill,
-button.btn--pill {
-  padding-left: 3rem !important;
-  padding-right: 3rem !important;
-  border-radius: 1000px !important;
-}
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
 
 
 
@@ -1099,6 +984,7 @@ input::-moz-focus-inner {
   -webkit-transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
   transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
 }
+
 
 .s-home--static {
   background-position: center center;
@@ -2040,10 +1926,11 @@ html.no-csstransitions .home-content__main {
   line-height: 1.219;
   margin-bottom: 4.2rem;
   position: relative;
+  text-align: center;
 }
 
 .s-info h1::before {
-  display: block;
+  display: none;
   content: "";
   width: 80px;
   height: 1px;
@@ -2149,8 +2036,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .info-toggle {
   z-index: 502;
-  background-color: #000000;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  
+  border: 0px solid rgba(255, 255, 255, 0.12);
   font-family: "metropolis-medium", sans-serif;
   font-size: 12px;
   text-transform: uppercase;
@@ -2171,8 +2058,10 @@ html.no-csstransitions .home-content__main {
   color: #FFFFFF;
 }
 
+
+
 .info-toggle::after {
-  content: "More Info";
+  content: "Menu";
   display: block;
   position: absolute;
   top: 0;
