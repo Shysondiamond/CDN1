@@ -990,7 +990,7 @@ select:-webkit-autofill:focus {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(1.1.png);
 }
 
 .s-home--static::before {
