@@ -12,3 +12,6 @@
   <li> <a href="https://www.instagram.com/tokosumberurip_?igsh=MmljeDZmemR1aHF6">Instagram : @tokosumberurip_</a></li>
   <li><a href="https://tokosumberurip.rivaldyalfi.com">website  : Toko Kopi Sumber Urip</a></li>
 </ul>
+
+<h1>Server TV</h1>
+<p><a href='https://github.com/Shysondiamond/CDNTV/tree/main'>Klik di sini!</a></p>
